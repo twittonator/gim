@@ -1,0 +1,209 @@
+*{padding: 0;margin: 0;border: 0;}
+,:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;margin: 0;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+
+body, html{
+   background-attachment: fixed;
+   width: 100%;
+   height: 100%;
+   background-image:url("../img/background.jpg")
+}
+
+header{
+font-size: 60px;
+text-align: center;
+background-image: url("../img/header.png");
+height: 190px;
+padding-top:30px ;
+border-bottom-right-radius:15px ;
+border-bottom-left-radius: 15px;
+box-shadow: 0 0 15px black;
+font-family: serif ;
+}
+
+header #logo a  {
+ 
+  color: white;
+}
+
+header #logo1 a{
+   padding: 0px 50px;
+   font-size: 40px;
+   color: white;
+
+
+}
+
+
+
+.bth {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.bth:hover {
+  background-color: rgba(161,21,207, 0.5);
+  color: white;
+}
+
+
+
+
+
+
+
+
+#myBtn {
+    display: none; /* По замовуванню приховане*/
+    position: fixed; /* Зафіксована позиція  */
+    bottom: 20px; /* Місце кнопки від низу сторінки */
+    right: 30px; /* Відступ кнопки з правої сторони */
+    z-index: 99; /* Переконуємось що вона нічим не перекриваєтсья */
+    border: none; /* Забирає межі*/
+    outline: none; /* Видаляє контури */
+    background-color: purple; /* Колір кнопки(її фону) */
+    color: white; /* Колір тексту що на кнопці*/
+    cursor: pointer; /* Додає вказівник мишки при наведенні */
+    padding: 15px; /* Відступ */
+    border-radius: 10px; /* Заокруглені кути*/
+    font-size: 18px; /* Розмір */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* РИСУНОК */
+    background-image: url("img/background1.png");
+
+    min-height: 90%;
+    margin-bottom: -140px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ФОРМА КОНТЕЙНЕРА */
+.container {
+    
+   
+    margin-right: 40px;
+    max-width: 600px;
+    padding: 52px;
+    background-color: white;
+    margin-bottom: 150px;
+}
+.container, h1{
+  font-size: 30px;
+
+
+}
+
+/* ШИРИНА ПОЛЯ ВВОДУ */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* КНОПКА ПІДТВЕРДЖЕННЯ */
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+.contentDiv{
+    font-size: 40px;
+    width: 50%;
+   color: white;
+   display: flex;
+   padding-left: 40px;
+   padding-bottom: 330px;
+   font-family: serif;
+
+}
+
+
+
+
+div #footer{
+   position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    background: #39b54a; 
+    color: #fff; 
+    width: 100%; 
+ }
+
+ footer{
+
+background-image: url("../img/header.png");
+font-size: 40px;
+text-align: center;
+padding: 10px 20px;
+width: 100%;
+height: 160px;
+border-bottom-right-radius:15px ;
+border-bottom-left-radius: 15px;
+box-shadow: 0 0 15px black;
+margin-top: auto;
+
+}
+
+
+ footer p{
+   margin: 20px 0px;
+   font-size: 30px;
+   color: white;
+ }
+ footer a{
+      margin: 0px 50px;
+ }
